@@ -1,1 +1,1 @@
-Registration File demo of Code-Clash 2026!!
+Registration Form demo of Code-Clash 2026!!
