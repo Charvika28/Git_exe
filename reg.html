@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Contest Registration</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+      padding:20px;
+    }
+
+    .container{
+      background:white;
+      width:100%;
+      max-width:450px;
+      padding:30px;
+      border-radius:18px;
+      box-shadow:0 0 20px rgba(0,0,0,0.3);
+    }
+
+    h2{
+      text-align:center;
+      margin-bottom:25px;
+      color:#0f172a;
+    }
+
+    .input-box{
+      margin-bottom:18px;
+    }
+
+    label{
+      display:block;
+      margin-bottom:6px;
+      font-weight:bold;
+      color:#333;
+    }
+
+    input,
+    select{
+      width:100%;
+      padding:12px;
+      border:1px solid #ccc;
+      border-radius:10px;
+      outline:none;
+      transition:0.3s;
+      font-size:15px;
+    }
+
+    input:focus,
+    select:focus{
+      border-color:#2563eb;
+    }
+
+    button{
+      width:100%;
+      padding:12px;
+      border:none;
+      border-radius:10px;
+      background:#2563eb;
+      color:white;
+      font-size:16px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    button:hover{
+      background:#1d4ed8;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="Container">
+
+    <h2>Code-Clash 2026</h2>
+
+    <form>
+
+      <div class="input-box">
+        <label>Full Name</label>
+        <input type="text">
+      </div>
+
+      <div class="input-box">
+        <label>Email Address</label>
+        <input type="email">
+      </div>
+
+      <div class="input-box">
+        <label>Phone Number</label>
+        <input type="tel">
+      </div>
+
+      <div class="input-box">
+        <label>College Name</label>
+        <input type="text">
+      </div>
+
+      <div class="input-box">
+        <label>Year of Study</label>
+
+        <select required>
+          <option value="">Select Year</option>
+          <option>1st Year</option>
+          <option>2nd Year</option>
+          <option>3rd Year</option>
+          <option>4th Year</option>
+        </select>
+      </div>
+
+      <div class="input-box">
+        <label>Preferred Language</label>
+
+        <select required>
+          <option value="">Select Language</option>
+          <option>Python</option>
+          <option>Java</option>
+          <option>C</option>
+          <option>C++</option>
+          <option>JavaScript</option>
+        </select>
+      </div>
+
+      <button type="submit">Register-Now</button>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
